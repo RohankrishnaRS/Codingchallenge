@@ -1,2 +1,7 @@
 C:\Users\ravis\OneDrive\Desktop\LoanManagement\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.csproj.AssemblyReference.cache
 C:\Users\ravis\OneDrive\Desktop\LoanManagement\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\ravis\OneDrive\Desktop\LoanManagement\LoanManagementSystem\LoanManagementSystem\bin\Debug\LoanManagementSystem.exe.config
+C:\Users\ravis\OneDrive\Desktop\LoanManagement\LoanManagementSystem\LoanManagementSystem\bin\Debug\LoanManagementSystem.exe
+C:\Users\ravis\OneDrive\Desktop\LoanManagement\LoanManagementSystem\LoanManagementSystem\bin\Debug\LoanManagementSystem.pdb
+C:\Users\ravis\OneDrive\Desktop\LoanManagement\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.exe
+C:\Users\ravis\OneDrive\Desktop\LoanManagement\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.pdb

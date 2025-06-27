@@ -1,21 +1,31 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace LoanManagementSystem.entity
+﻿namespace LoanManagementSystem.entity
 {
-    public abstract class Loan
+    public class Loan
     {
-        [Key]
         public int LoanId { get; set; }
-
-        [ForeignKey("Customer")]
-        public int CustomerId { get; set; }
         public Customer Customer { get; set; }
-
-        public decimal PrincipalAmount { get; set; }
-        public decimal InterestRate { get; set; }
-        public int LoanTerm { get; set; } // in months
+        public double PrincipalAmount { get; set; }
+        public double InterestRate { get; set; }
+        public int LoanTerm { get; set; }
         public string LoanType { get; set; }
-        public string LoanStatus { get; set; } // Pending, Approved
+        public string LoanStatus { get; set; }
+
+        public Loan() { }
+
+        public Loan(int loanId, Customer customer, double principal, double interestRate, int loanTerm, string loanType, string loanStatus)
+        {
+            LoanId = loanId;
+            Customer = customer;
+            PrincipalAmount = principal;
+            InterestRate = interestRate;
+            LoanTerm = loanTerm;
+            LoanType = loanType;
+            LoanStatus = loanStatus;
+        }
+
+        public override string ToString()
+        {
+            return $"LoanID: {LoanId}, CustomerID: {Customer?.CustomerId}, Principal: {PrincipalAmount}, InterestRate: {InterestRate}, Term: {LoanTerm}, Type: {LoanType}, Status: {LoanStatus}";
+        }
     }
 }
