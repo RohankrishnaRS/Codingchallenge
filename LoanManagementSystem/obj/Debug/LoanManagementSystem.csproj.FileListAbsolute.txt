@@ -1,0 +1,2 @@
+C:\Users\ravis\OneDrive\Desktop\LoanManagement\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.csproj.AssemblyReference.cache
+C:\Users\ravis\OneDrive\Desktop\LoanManagement\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.csproj.CoreCompileInputs.cache
